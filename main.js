@@ -1,5 +1,5 @@
 const button = document.getElementById('play');
-const audio = new Audio('./nature-sounds.mp3');
+const audio = new Audio('.resources/nature-sounds.mp3');
 
 let isPlaying = false;
 
