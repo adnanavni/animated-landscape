@@ -45,14 +45,15 @@
 
 body {
   --grass: linear-gradient(#175c17, #177217);
-  --sky: linear-gradient(#b0e0e6, #87ceeb);
-  --sunset: linear-gradient(#ff7f50, #ff6347);
-  --sunrise: linear-gradient(#ff6347, #ff7f50);
+  --sky: #87ceeb;
+  --sunset: #ff6347;
+  --sunrise: #ff7f50;
   --sun: radial-gradient(#ffe54d, #fffb00);
-  --nightsky: linear-gradient(#000000, #220ab9);
+  --nightsky: #0b0b0b;
   --mountains: linear-gradient(#696969, #808080);
   --leaves: linear-gradient(#228b22, #006400);
   --tree: linear-gradient(#8b4513, #a0522d);
+  transform: all 0.5s ease-in-out;
 }
 #play {
   margin: 1rem;
